@@ -1,0 +1,90 @@
+/*Creado por Sara Guerra - 30/09/2025*/
+
+body{
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #151235;
+    color: #ffffff;
+}
+
+#encabezado-principal{
+    size: 40px;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+
+.tarjeta-destino{
+    border: 1px solid #a0ce82;
+    width: 80%;
+    padding: 16px;
+    margin: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    position: relative;
+}
+
+img.tarjeta-destino{
+    float: left;
+    margin-right: 15px;
+}
+
+
+
+.destacado{
+    color: #ff5733;
+    font-weight: bold;
+    background-color: yellow;
+}
+
+a{
+    text-decoration: none;
+    color: #ffffff;
+    
+}
+a:hover{
+    color: #fac846;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+.etiqueta-nuevo{
+    position: relative;
+    top: 10px;
+    right: 10px;
+    background-color: red;
+    padding: 10px;
+}
+
+.menu-navegacion{
+    background-color: #5f9b8c;
+    text-align: center;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    
+}
+
+img{
+    max-width: 100%;
+    height: auto;
+}
+
+@media (max-width: 600px) {
+    body{
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+
+    h1{
+        font-size: 24px;
+    }
+
+    .tarjeta-destino{
+        width: 100%;
+        padding: 10px;
+        margin: 10px 0;
+    }
+/* Aquí van tus reglas */
+}
